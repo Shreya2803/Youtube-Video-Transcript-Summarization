@@ -7,7 +7,7 @@ YouTube Video Summarizer is a Python project that fetches the transcript of a Yo
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
-- [How it works](#Howitworks)
+- [Howitworks](#Howitworks)
 
 ## Overview
 
@@ -30,7 +30,7 @@ The YouTube Video Summarizer project uses the `youtube_transcript_api` to fetch 
 2. Run the main.py script:
    ```bash
    python main.py
-3.The script will fetch the transcript, generate a summary, and save the results in a PDF file: "Summary.pdf".
+3.The script will fetch the transcript, generate a summary, and save the results in a PDF file: "Summary.pdf" and the whole transcript in "Transcript.pdf".
 
 ## Dependencies
  Install the required dependencies:
