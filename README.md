@@ -7,7 +7,7 @@ YouTube Video Summarizer is a Python project that fetches the transcript of a Yo
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
-- [How it works](#Howitworks)
+
 
 ## Overview
 
@@ -32,13 +32,13 @@ The YouTube Video Summarizer project uses the `youtube_transcript_api` to fetch 
    python main.py
 3.The script will fetch the transcript, generate a summary, and save the results in a PDF file: "Summary.pdf" and the whole transcript in "Transcript.pdf".
 
-## Dependencies
- 1.Install the required dependencies:
-    ```bash
-    pip install transformers youtube_transcript_api reportlab
-    
-## How it works
 
-The YouTube Transcript API is used to fetch the transcript of the specified YouTube video.
-The transformers library provides the BART model for text summarization, which generates a concise summary of the transcript.
-The summarized text is saved to a PDF file for easy access and review.
+## Dependencies
+
+  Install the required dependencies:
+   ```bash
+  pip install transformers youtube_transcript_api reportlab
+ 
+
+    
+
